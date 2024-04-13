@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		D8F044592BCAC320000CA22C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F044582BCAC320000CA22C /* AppDelegate.swift */; };
 		D8F0445B2BCAC320000CA22C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F0445A2BCAC320000CA22C /* SceneDelegate.swift */; };
-		D8F0445D2BCAC320000CA22C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F0445C2BCAC320000CA22C /* ViewController.swift */; };
-		D8F044602BCAC320000CA22C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8F0445E2BCAC320000CA22C /* Main.storyboard */; };
 		D8F044622BCAC322000CA22C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8F044612BCAC322000CA22C /* Assets.xcassets */; };
 		D8F044652BCAC322000CA22C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8F044632BCAC322000CA22C /* LaunchScreen.storyboard */; };
+		D8F0446D2BCAC649000CA22C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F0446C2BCAC649000CA22C /* HomeViewController.swift */; };
+		D8F044702BCAC976000CA22C /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D8F0446F2BCAC976000CA22C /* SnapKit */; };
+		D8F044722BCAC976000CA22C /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = D8F044712BCAC976000CA22C /* SnapKit-Dynamic */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D8F044552BCAC320000CA22C /* FaInt06NetflixStyle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaInt06NetflixStyle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8F044582BCAC320000CA22C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8F0445A2BCAC320000CA22C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D8F0445C2BCAC320000CA22C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D8F0445F2BCAC320000CA22C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D8F044612BCAC322000CA22C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8F044642BCAC322000CA22C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8F044662BCAC322000CA22C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8F0446C2BCAC649000CA22C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +31,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8F044702BCAC976000CA22C /* SnapKit in Frameworks */,
+				D8F044722BCAC976000CA22C /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,11 +60,10 @@
 			children = (
 				D8F044582BCAC320000CA22C /* AppDelegate.swift */,
 				D8F0445A2BCAC320000CA22C /* SceneDelegate.swift */,
-				D8F0445C2BCAC320000CA22C /* ViewController.swift */,
-				D8F0445E2BCAC320000CA22C /* Main.storyboard */,
 				D8F044612BCAC322000CA22C /* Assets.xcassets */,
 				D8F044632BCAC322000CA22C /* LaunchScreen.storyboard */,
 				D8F044662BCAC322000CA22C /* Info.plist */,
+				D8F0446C2BCAC649000CA22C /* HomeViewController.swift */,
 			);
 			path = FaInt06NetflixStyle;
 			sourceTree = "<group>";
@@ -83,6 +84,10 @@
 			dependencies = (
 			);
 			name = FaInt06NetflixStyle;
+			packageProductDependencies = (
+				D8F0446F2BCAC976000CA22C /* SnapKit */,
+				D8F044712BCAC976000CA22C /* SnapKit-Dynamic */,
+			);
 			productName = FaInt06NetflixStyle;
 			productReference = D8F044552BCAC320000CA22C /* FaInt06NetflixStyle.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = D8F0444C2BCAC31F000CA22C;
+			packageReferences = (
+				D8F0446E2BCAC976000CA22C /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = D8F044562BCAC320000CA22C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +135,6 @@
 			files = (
 				D8F044652BCAC322000CA22C /* LaunchScreen.storyboard in Resources */,
 				D8F044622BCAC322000CA22C /* Assets.xcassets in Resources */,
-				D8F044602BCAC320000CA22C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +145,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8F0445D2BCAC320000CA22C /* ViewController.swift in Sources */,
 				D8F044592BCAC320000CA22C /* AppDelegate.swift in Sources */,
 				D8F0445B2BCAC320000CA22C /* SceneDelegate.swift in Sources */,
+				D8F0446D2BCAC649000CA22C /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D8F0445E2BCAC320000CA22C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D8F0445F2BCAC320000CA22C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D8F044632BCAC322000CA22C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +295,6 @@
 				INFOPLIST_FILE = FaInt06NetflixStyle/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -323,7 +321,6 @@
 				INFOPLIST_FILE = FaInt06NetflixStyle/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -361,6 +358,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D8F0446E2BCAC976000CA22C /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D8F0446F2BCAC976000CA22C /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D8F0446E2BCAC976000CA22C /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		D8F044712BCAC976000CA22C /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D8F0446E2BCAC976000CA22C /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D8F0444D2BCAC320000CA22C /* Project object */;
 }
