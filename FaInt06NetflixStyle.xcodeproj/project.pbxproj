@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D84E3F652BCEAD0700E43B13 /* ContentCollectionViewMainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84E3F642BCEAD0700E43B13 /* ContentCollectionViewMainCell.swift */; };
+		D84E3F672BCEBD7B00E43B13 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84E3F662BCEBD7B00E43B13 /* UIButton+Extension.swift */; };
 		D8BDDA9A2BCC0F1E00B862C9 /* ContentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BDDA992BCC0F1E00B862C9 /* ContentCollectionViewCell.swift */; };
 		D8BDDA9C2BCC178100B862C9 /* ContentCollectionViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BDDA9B2BCC178100B862C9 /* ContentCollectionViewHeader.swift */; };
 		D8DC0E222BCD714A00050219 /* ContentCollectionViewRankCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DC0E212BCD714A00050219 /* ContentCollectionViewRankCell.swift */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D84E3F642BCEAD0700E43B13 /* ContentCollectionViewMainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCollectionViewMainCell.swift; sourceTree = "<group>"; };
+		D84E3F662BCEBD7B00E43B13 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
 		D8BDDA992BCC0F1E00B862C9 /* ContentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCollectionViewCell.swift; sourceTree = "<group>"; };
 		D8BDDA9B2BCC178100B862C9 /* ContentCollectionViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCollectionViewHeader.swift; sourceTree = "<group>"; };
 		D8DC0E212BCD714A00050219 /* ContentCollectionViewRankCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCollectionViewRankCell.swift; sourceTree = "<group>"; };
@@ -79,6 +83,8 @@
 				D8BDDA992BCC0F1E00B862C9 /* ContentCollectionViewCell.swift */,
 				D8F044752BCAD2D5000CA22C /* Content.swift */,
 				D8DC0E212BCD714A00050219 /* ContentCollectionViewRankCell.swift */,
+				D84E3F642BCEAD0700E43B13 /* ContentCollectionViewMainCell.swift */,
+				D84E3F662BCEBD7B00E43B13 /* UIButton+Extension.swift */,
 			);
 			path = FaInt06NetflixStyle;
 			sourceTree = "<group>";
@@ -166,6 +172,8 @@
 				D8F0445B2BCAC320000CA22C /* SceneDelegate.swift in Sources */,
 				D8DC0E222BCD714A00050219 /* ContentCollectionViewRankCell.swift in Sources */,
 				D8F0446D2BCAC649000CA22C /* HomeViewController.swift in Sources */,
+				D84E3F672BCEBD7B00E43B13 /* UIButton+Extension.swift in Sources */,
+				D84E3F652BCEAD0700E43B13 /* ContentCollectionViewMainCell.swift in Sources */,
 				D8F044762BCAD2D5000CA22C /* Content.swift in Sources */,
 				D8BDDA9A2BCC0F1E00B862C9 /* ContentCollectionViewCell.swift in Sources */,
 			);
